@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap');
+
+:root {
+    --background: #0099ff;
+    --colorcurve: #fff;
+  }
+  
+html, body {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    background: var(--background);
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+
+#header {
+    display: block;
+    position: relative;
+    width: 100%; 
+    height: 100px;
+    background: var(--colorcurve);
+    margin: auto;
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+#header h1, h1 {
+    margin: 0px;
+    padding-top: 25px;
+    text-transform: lowercase;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: rgb(39, 48, 54);
+    font-weight: 900;
+    font-size: 50px;
+}
+
+#underline {
+    box-shadow: inset 0 -0.2em transparent, inset 0 -0.25em transparent;
+    display: inline;
+       position: relative;
+       padding-bottom: 5px;
+
+   }
+
+#underline:hover { 
+    box-shadow: inset 0 -0.2em #fff, inset 0 -0.30em #0099ff;
+    
+}
+
+  #container {
+    position: relative;
+  }
+
+  
+  #svg {
+    position: relative;
+    
+    
+  }
+  #svg > svg {
+    position: absolute;
+    transform: translate(0px,0);
+    overflow: visible!important
+  }
+  #svg > svg path {
+    transform: translate(-0px,-0);
+    fill: var(--colorcurve);
+  }
+
+  /* #svg > svg path:nth-child(2) {
+    fill: #ff00002e; 
+  }*/
+
+  #svg:hover + #generator .bol  {
+    display: block;
+  }
+
+  .controls {
+    position: relative; 
+    top: 20px; 
+    padding: 20px 10px;
+    margin: auto;
+    width: 300px;
+    height: 210px;
+    border-radius: 10px;
+    background: white;
+    border: #eee solid 3px;
+  }
+
+  .el-icon-d-caret {
+    cursor:pointer;
+    transform: rotate(90deg);
+    position: relative;
+    top: 10px;
+  }
+
+  #generator {
+   height: 200px;
+   display: block;
+   width: 100%;
+   
+  }
+  .grid {
+    background: transparent;
+    background-size: 25px 25px;
+    
+  }
+
+  #svg:hover + #generator.grid, .grid:hover {
+    background-image: linear-gradient(to right, #f1f1f1 1px, #eb000000 1px), linear-gradient(to bottom, #f1f1f1 1px, transparent 1px);   
+  }
+
+
+  #generator:hover .bol {
+    display: block;
+  }
+  .bol {
+    display: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid #409EFF;
+    position: absolute;
+    cursor: move;
+    top: 250px;
+    text-align: center;
+    line-height: 16px;
+    font-size: 12px;
+    left: calc(50% - 11px);
+    transform: translate(8px, 0px);
+  }
+
+  #mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+}
+
+.language-css .token.string, .style .token.string, .token.entity, .token.operator, .token.url {
+  background: none;
+  font-family: 'Inter'; 
+  font-weight: 500; 
+  text-decoration: none; 
+  box-shadow: none; 
+  text-shadow: none;
+}
+
+code[class*=language-], pre[class*=language-] {
+  text-shadow: none;
+}
+pre {
+  border-radius: 4px;
+}
+
+.el-dialog {
+  min-width: 340px;
+}
+
+.el-message {
+  min-width: 300px;
+}
+
+/* EXAMPLES */
+
+
+
+
+@media (max-width:1888px) {
+  .ex {
+    background-size: contain;
+    
+  } 
+
+  .el-card.hidden {
+    display: none;
+  }
+}
+
+.reverse {
+  transform: rotate(180deg);
+  top: 2px;
+  margin-bottom: 0px;  
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #eee;
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+/*
+     FILE ARCHIVED ON 04:05:03 May 20, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:00:27 Feb 04, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 119.594
+  exclusion.robots: 0.079
+  exclusion.robots.policy: 0.072
+  cdx.remote: 0.051
+  esindex: 0.007
+  LoadShardBlock: 88.791 (3)
+  PetaboxLoader3.datanode: 74.199 (4)
+  CDXLines.iter: 18.072 (3)
+  load_resource: 86.188
+  PetaboxLoader3.resolve: 41.697
+*/
